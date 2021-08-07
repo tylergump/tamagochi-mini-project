@@ -29,9 +29,9 @@ body {
 #screen {
 	display: flex;
 	flex-direction: column;
-	/* background-image: url("/Users/tylergump/sei-bromeliad/projects/tamagochi-mini-project/gameboyscreen.png"); */
+	background-image: url("/Users/tylergump/sei-bromeliad/projects/tamagochi-mini-project/gameboyscreen.png");
 	/* background-image: url("/Users/tylergump/sei-bromeliad/projects/tamagochi-mini-project/tenor.gif"); */
-	background-image: url("/Users/tylergump/sei-bromeliad/projects/tamagochi-mini-project/nightime.gif");
+	/* background-image: url("/Users/tylergump/sei-bromeliad/projects/tamagochi-mini-project/nightime.gif"); */
 
 	background-size: cover;
 	height:300px;
@@ -41,6 +41,14 @@ body {
 	border-radius: 0px;
 	align-items: center;
 	justify-content: flex-start;
+}
+
+#image {
+	display: flex;
+	height:400px;
+	width: 400px;
+	justify-content: center;
+	align-items: center;
 }
 
 #logo {
@@ -107,6 +115,7 @@ body {
 	font-size: 18px;
 	border-radius: 20px;
 	padding: 0px;
+	font-family: 'Roboto';
 }
 
 h1{
