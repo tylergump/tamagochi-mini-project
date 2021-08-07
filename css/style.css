@@ -4,7 +4,7 @@ body {
 }
 
 #device{
-	background-image:url('/Users/tylergump/sei-bromeliad/projects/tamagochi-mini-project/gb6.png');
+	background-image:url('../gb6.png');
 	background-size: cover;
 	height:750px;
 	width: 700px;
