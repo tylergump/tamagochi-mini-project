@@ -133,19 +133,21 @@ const game = {
 		
 		if (this.lightsON){
 			if (this.myPet.fatigue >1){
-				this.myPet.fatigue--
-				$('#fatigue').text(this.myPet.fatigue);
+				// this.myPet.fatigue--
+				// $('#fatigue').text(this.myPet.fatigue);
 			    $('#screen').css('background', 'url("/Users/tylergump/sei-bromeliad/projects/tamagochi-mini-project/tenor.gif")');
 				$('#screen').css('background-size', 'cover');
 				$('img').attr('src', 'Pokemon-Pikachu-PNG-Images.png');
+				$('#metrics').css('color', 'black');
 			    this.lightsON = false;
 			}
 		}else{
-			this.myPet.fatigue--
+			this.myPet.fatigue-=3
 			$('#fatigue').text(this.myPet.fatigue);
-			$('#screen').css('background', 'url("https://github.com/tylergump/tamagochi-mini-project/blob/main/nightime.gif")');
+			$('#screen').css('background', 'url("/Users/tylergump/sei-bromeliad/projects/tamagochi-mini-project/nightime.gif")');
 			$('#screen').css('background-size', 'cover');
 			$('img').attr('src', 'Cute-Pikachu-PNG-Clipart.png');
+			$('#metrics').css('color', 'white');
 			this.lightsON = true;
 		}
 	}

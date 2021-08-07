@@ -29,7 +29,7 @@ body {
 #screen {
 	display: flex;
 	flex-direction: column;
-	background-image: url("https://github.com/tylergump/tamagochi-mini-project/blob/main/gameboyscreen.png");
+	background-image: url("/Users/tylergump/sei-bromeliad/projects/tamagochi-mini-project/gameboyscreen.png");
 	/* background-image: url("/Users/tylergump/sei-bromeliad/projects/tamagochi-mini-project/tenor.gif"); */
 	/* background-image: url("/Users/tylergump/sei-bromeliad/projects/tamagochi-mini-project/nightime.gif"); */
 
