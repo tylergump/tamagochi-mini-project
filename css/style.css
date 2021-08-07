@@ -4,7 +4,8 @@ body {
 }
 
 #device{
-	background-image:url('/Users/tylergump/sei-bromeliad/projects/tamagochi-mini-project/gameboy_texture.png');
+	background-image:url('/Users/tylergump/sei-bromeliad/projects/tamagochi-mini-project/gb6.png');
+	background-size: cover;
 	height:750px;
 	width: 700px;
 	margin: 5px auto;
