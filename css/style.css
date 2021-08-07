@@ -1,10 +1,10 @@
 body {
-	background-color: blueviolet;
+	background-color: greenyellow;
 	font-family: 'Press Start 2P', cursive;
 }
 
 #device{
-	background-color: teal;
+	background-image:url('/Users/tylergump/sei-bromeliad/projects/tamagochi-mini-project/gameboy_texture.png');
 	height:750px;
 	width: 700px;
 	margin: 5px auto;

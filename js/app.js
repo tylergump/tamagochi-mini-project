@@ -75,7 +75,7 @@ const game = {
 			if (timeInMillisecond % 15000 === 0){	
 				this.myPet.getFatigued();
 			}
-      		if (timeInMillisecond % 30000 === 0){	
+      		if (timeInMillisecond % 15000 === 0){	
       			this.myPet.getOlder();
       			this.myPet.evolve();
       			this.time = 0;
