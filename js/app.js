@@ -139,7 +139,7 @@ const game = {
 			if (this.myPet.fatigue >1){
 				// this.myPet.fatigue--
 				// $('#fatigue').text(this.myPet.fatigue);
-			    $('#screen').css('background', 'url("https://github.com/tylergump/tamagochi-mini-project/blob/main/tenor.gif?raw=true")');
+			    $('#screen').css('background', 'url("images/tenor.gif")');
 				$('#screen').css('background-size', 'cover');
 				$('img').attr('src', 'Pokemon-Pikachu-PNG-Images.png');
 				$('#metrics').css('color', 'black');
@@ -148,7 +148,7 @@ const game = {
 		}else{
 			this.myPet.fatigue-=3
 			$('#fatigue').text(this.myPet.fatigue);
-			$('#screen').css('background', 'url("https://github.com/tylergump/tamagochi-mini-project/blob/main/nightime.gif?raw=true")');
+			$('#screen').css('background', 'url("images/nightime.gif")');
 			$('#screen').css('background-size', 'cover');
 			$('img').attr('src', 'Cute-Pikachu-PNG-Clipart.png');
 			$('#metrics').css('color', 'white');
@@ -163,7 +163,7 @@ $('#form').on('submit',(event)=>{
 	event.preventDefault()
 	const newName = $('#input-name').val()
 	game.start(newName)
-	$('#screen').css('background-image', 'url("/Users/tylergump/sei-bromeliad/projects/tamagochi-mini-project/tenor.gif")')
+	$('#screen').css('background-image', 'url("images/tenor.gif")')
 })
 
 $('.button').on('click',(event)=>{
