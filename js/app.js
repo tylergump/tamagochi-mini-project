@@ -143,7 +143,7 @@ const game = {
 		}else{
 			this.myPet.fatigue--
 			$('#fatigue').text(this.myPet.fatigue);
-			$('#screen').css('background', 'url("/Users/tylergump/sei-bromeliad/projects/tamagochi-mini-project/nightime.gif")');
+			$('#screen').css('background', 'url("https://github.com/tylergump/tamagochi-mini-project/blob/main/nightime.gif")');
 			$('#screen').css('background-size', 'cover');
 			$('img').attr('src', 'Cute-Pikachu-PNG-Clipart.png');
 			this.lightsON = true;
