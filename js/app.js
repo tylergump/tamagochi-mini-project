@@ -25,7 +25,7 @@ class Tamagotchi {
 		$('#boredom').text(this.boredom);
 	}
 	graveyard(reason){
-		console.log(`${this.name} died from ${reason} `);
+		alert(`${this.name} died from ${reason} `);
 		$('img').attr('src', 'sadpika.png');
 	}
 
@@ -94,10 +94,14 @@ const game = {
       			this.reasonOfDeath = "boredom";
     
       		}
-
+			  if (this.myPet.age>=20){
+				this.myPet.dead = true;
+				this.reasonOfDeath = "old age";
+			  }
       		if (this.myPet.dead){
       			clearInterval(this.intervalID)
       			this.myPet.graveyard(this.reasonOfDeath)
+				  $('.button').prop('disabled', true);
       		}
       		
     	 }, 100)
